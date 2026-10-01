@@ -6,6 +6,5 @@ resource "aws_instance" "nds-node1" {
   tags = {
     "Name" = "node${count.index}"
     
-
   }
 }
